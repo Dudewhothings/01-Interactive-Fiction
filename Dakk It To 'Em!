@@ -1,0 +1,130 @@
+{
+  "passages": [
+    {
+      "text": "A young Ork Dakkasmith sits in a workshop made of scrap metal bolted together, working upon a simple shoota under the tutelage of an older Ork, Brainscorchah.\n[[A Storm Approaches]]",
+      "links": [
+        {
+          "name": "A Storm Approaches",
+          "link": "A Storm Approaches",
+          "pid": "2"
+        }
+      ],
+      "name": "Beginning",
+      "pid": "1",
+      "position": {
+        "x": "404",
+        "y": "170"
+      }
+    },
+    {
+      "text": "Over the Horizon, a storm of hooves and blades could be heard. An Ork Watcha runs through the town, crying of a legion wielding blades instead of shootas and riding upon hooved steeds instead of the Speeda Bikes the Orks ride upon so proudly.\n[[The Cutting Legion Strikes]] ",
+      "links": [
+        {
+          "name": "The Cutting Legion Strikes",
+          "link": "The Cutting Legion Strikes",
+          "pid": "3"
+        }
+      ],
+      "name": "A Storm Approaches",
+      "pid": "2",
+      "position": {
+        "x": "524",
+        "y": "170"
+      }
+    },
+    {
+      "text": "Suddenly, without a word, the horse-riding invaders ride over the hills, their squadrons of armored beasts cutting down Orks before they can even grab their Shootas. They invade en masse, heading towards the center of the scrap-metal city, where the great StarTokka resides.\n[[Startokka gets Executed]] ",
+      "links": [
+        {
+          "name": "Startokka gets Executed",
+          "link": "Startokka gets Executed",
+          "pid": "4"
+        }
+      ],
+      "name": "The Cutting Legion Strikes",
+      "pid": "3",
+      "position": {
+        "x": "644",
+        "y": "170"
+      }
+    },
+    {
+      "text": "In but a few moments, the blade wielding invaders attack the residence of StarTokka, who could be seen having his throat torn out after being dragged out in chains. The Orkz of the Scrap-Metal City scatter, the Cutting Legion killing them as they flee. In the distance, two beings descend from the sky, wreathed in sharp steel; The Keen Twins have arrived, and the Scrap City has been lost.\n[[Fleeing the Scrap City]] ",
+      "links": [
+        {
+          "name": "Fleeing the Scrap City",
+          "link": "Fleeing the Scrap City",
+          "pid": "5"
+        }
+      ],
+      "name": "Startokka gets Executed",
+      "pid": "4",
+      "position": {
+        "x": "764",
+        "y": "170"
+      }
+    },
+    {
+      "text": "As the surviving Orks flee the City, Brainscorchah and the young Ork hide out in a thick roofed forest with a bunch of other Orks. They begin setting up a hidden settlement.\n[[Brainscorchah's Shakk]] ",
+      "links": [
+        {
+          "name": "Brainscorchah's Shakk",
+          "link": "Brainscorchah's Shakk",
+          "pid": "6"
+        }
+      ],
+      "name": "Fleeing the Scrap City",
+      "pid": "5",
+      "position": {
+        "x": "884",
+        "y": "170"
+      }
+    },
+    {
+      "text": "After a few weeks of living within the commune, the young DakkaSmith is called into a metal shack where BrainScorchah resides. He pulls out a metal scroll, and it reveals a script in Orkish Glyphs. \"Young Dakkasmith, Lemme tell yaz about da Legend.\"\n[[Da Legend]] ",
+      "links": [
+        {
+          "name": "Da Legend",
+          "link": "Da Legend",
+          "pid": "7"
+        }
+      ],
+      "name": "Brainscorchah's Shakk",
+      "pid": "6",
+      "position": {
+        "x": "1004",
+        "y": "170"
+      }
+    },
+    {
+      "text": "Brainscorchah begins reading from the glyphs, presenting an ancient tale. \"Once, dere was a Big Orkky God, Dakka Himself. He 'ad two enemies, da Keen Twins, who 'ated Dakka due to dem bein' primitive grots dat preferred stompin' gits up close instead uv' shootin grots with Shootas. He made all da Orkz of da world, and gave us da ability to make shootas of da 4 elementz; Phozphorus, Iron, Brass, and da most important metal... Lead. Da Orks dat Dakka made kitted up with 5 legendary Shootas dat wieldin Doze elements; Da Lead Loada, da Baddest Burnah, da Biggest Iron, And da Brass Blasta. Dez' guns were seemingly lost to time, but da schematikz of deze Legendary Shootas still exist... we dunno where, but they do.\"\n[[Da Start of Da Game]] ",
+      "links": [
+        {
+          "name": "Da Start of Da Game",
+          "link": "Da Start of Da Game",
+          "pid": "8"
+        }
+      ],
+      "name": "Da Legend",
+      "pid": "7",
+      "position": {
+        "x": "1124",
+        "y": "170"
+      }
+    },
+    {
+      "text": "\"Now, young Dakkasmith, I iz entrusting youz wit somethin precious to da Legend. Dis little Six Shoota.\" *Brainscorchah passes the young DakkaSmith a simple revolver, which already holds the capacity for tons of power.* \"Take dis, and fulfill da Legend.\"",
+      "name": "Da Start of Da Game",
+      "pid": "8",
+      "position": {
+        "x": "1244",
+        "y": "170"
+      }
+    }
+  ],
+  "name": "Dakk It To 'Em",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.11",
+  "ifid": "C86C3C9E-984C-48EB-9051-FA647F598795"
+}
