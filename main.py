@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import sys
+import sys,os,json,re
 assert sys.version_info >= (3,9), "This script requires at least Python 3.9"
 
 def load(l):
@@ -30,38 +30,40 @@ def format_passage(description):
 
 
 
-def update(current, choice, game_desc):
+def update(current,choice,game_desc):
     if choice == "":
         return current
-    for l in current("links"): 
+    for l in current["links"]: 
         if l["name"] == choice: 
-            current = find_passage[game_desc, l["pid"]]
+            current = find_passage(game_desc, l["pid"])
             return current
+    print("I don't understand. Please try again.")
+    return current
     
 
 def render(current):
+    print("\n\n")
     print(current["name"])
-    print(format_passage(current["text"])
+    print(format_passage(current["text"]))
+    print("\n")
 
 
-
-def render(current):
+def get_input():
     choice = input("What would you like to do? (Type quit to exit) ")
-    choice = choice.lower()
+    choice = choice.lower().strip()
     return choice 
-
-
 
 
 
 
 def main():
     game_desc = load("RuinedCity.json")
-    current = find_passage[]
- while choice != "quit" and current != {}:
-    current = update(current, choice,game_desc)
-    render(current)
-    choice = get_input{}
+    current = find_passage(game_desc, game_desc["startnode"])
+    choice = ""
+    while choice != "quit" and current != {}: 
+        current = update(current,choice,game_desc)
+        render(current)
+        choice = get_input()
 
     print("Thanks for Playing!")
 
